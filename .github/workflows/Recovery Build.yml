@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/LineageOS/android_device_motorola_dubai'
+        default: 'https://github.com/gstjee/android_device_motorola_dubai-twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'dubai'
         required: true
-        default: 'I003D'
+        default: 'dubai'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_dubai'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
