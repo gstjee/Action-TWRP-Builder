@@ -14,23 +14,23 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/TeamWin/android_device_asus_I003D'
+        default: 'https://github.com/LineageOS/android_device_motorola_dubai'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12.1'
+        default: 'lineage-21'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/asus/I003D'
+        default: 'device/motorola/dubai'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: false
+        description: 'https://github.com/LineageOS/android_device_motorola_sm7325-common'
+        required: true
       COMMON_PATH:
-        description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: false
+        description: 'device/motorola/sm7325-common'
+        required: true
       DEVICE_NAME:
-        description: 'DEVICE_NAME'
+        description: 'dubai'
         required: true
         default: 'I003D'
       MAKEFILE_NAME:
@@ -40,7 +40,7 @@ on:
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'recovery'
+        default: 'boot'
 
 jobs:
   build:
