@@ -24,7 +24,7 @@ on:
         required: true
         default: 'device/motorola/dubai'
       COMMON_TREE_URL:
-        description: 'https://github.com/LineageOS/android_device_motorola_sm7325-common'
+        description: 'https://github.com/gstjee/device_motorola_sm7325-common-twrp'
         required: true
       COMMON_PATH:
         description: 'device/motorola/sm7325-common'
