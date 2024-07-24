@@ -14,21 +14,21 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/gstjee/device_motorola_dubai-twrp'
+        default: 'https://github.com/gstjee/generated-dt-twrp-dubai'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'lineage-21'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
         default: 'device/motorola/dubai'
       COMMON_TREE_URL:
         description: 'https://github.com/gstjee/device_motorola_sm7325-common-twrp'
-        required: true
+        required: false
       COMMON_PATH:
         description: 'device/motorola/sm7325-common'
-        required: true
+        required: false
       DEVICE_NAME:
         description: 'dubai'
         required: true
